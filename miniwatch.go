@@ -88,15 +88,6 @@ func main() {
 			}
 		}
 
-		err = Sync(DOOR)
-		if err != nil {
-			log.Println(err)
-		} else {
-			err := Sync(DOOR)
-			if err != nil {
-				log.Println(err)
-			}
-		}
 		time.Sleep(time.Second * 3)
 	}
 }
